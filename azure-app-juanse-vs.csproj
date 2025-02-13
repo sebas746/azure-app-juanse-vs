@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_juanse_vs</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/a544eac9-605e-48ff-a6d7-9d796c038214/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-juanse-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>a2fe30c7-4934-4c6d-9fe9-7ce0977661d0</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
